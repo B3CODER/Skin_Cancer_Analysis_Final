@@ -10,24 +10,28 @@ In this project, we developed a CNN model to classify images of skin lesions int
 
 ## 3. Steps Taken
 
-1. **Data Collection**: Curated a dataset of skin lesion images from [Dataset Source].
+1. **Data Collection**: Curated a dataset of skin lesion images from Kaggle.
 2. **Data Preprocessing**: Applied image augmentation techniques to enhance the dataset and ensure the model generalizes well.
-3. **Model Development**: Developed a CNN model with [number] layers using Python and TensorFlow/Keras.
+3. **Model Development**: Developed a CNN model using Python and TensorFlow/Keras.
 4. **Training and Validation**: Trained the model on the dataset, optimized hyperparameters, and validated the model using cross-validation.
 5. **Evaluation**: Assessed the model’s performance using accuracy, precision, recall, F1-score, and ROC-AUC metrics.
 
-## 6. Future Work
+## 4. Future Work
 
 - **Model Deployment**: Plan to deploy the model as a web application using Flask/Django to make it accessible for real-world use.
 - **Continuous Improvement**: Integrate transfer learning to improve model accuracy further and experiment with different architectures.
 
-## 7. Working Video
+## 5. Working Video
 
 Here’s a video demonstrating the model in action, showing how it processes input images and provides predictions:
 
-[Watch the video](Website_demo.mp4)
+<video width="320" height="240" controls>
+  <source src="Website_demo" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-## 8. Conclusion
+
+## 6. Conclusion
 
 This project demonstrates the potential of deep learning in assisting with early detection of skin cancer, which can be life-saving. With further improvements and real-world testing, this model could become a valuable tool for healthcare professionals.
 

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+.left-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    width: 50vw;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: #f3f3f3;
+    width: 60vw;
+    height: 86vh;
+    min-width: 40vw;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+}
+.info-header{
+    font-size: xx-large;
+}
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 32vw;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.3rem;
+    gap: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+}
+
+img{
+    border-radius: 7px;
+}
+.left-content{
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.image-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9C1A1C;
+    width: 8rem;
+    height: 2rem;
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-form:hover{
+    background-color: #9b3b3d;
+    cursor: pointer;
+}
+
+.input-btn{
+    cursor: pointer;
+}
+
+.image-form:active,#input-btn:active{
+    transform: scale(0.97);
+}
+
+button{
+    background-color: #225e0b;
+    width: 8rem;
+    height: 2rem;
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+}
+
+button:hover {
+    background-color: #2d7027;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.97);
+}
+

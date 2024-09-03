@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 28px;
+    font-weight: bold;
+    height: 8vh;
+    width: 100vw;
+    background-color: #a41a1e;
+    box-shadow: 0 5px 3px -4px rgba(0, 0, 0, 0.5);
+    font-family: 'Lato', sans-serif;
+    color: white;
+}

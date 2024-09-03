@@ -25,11 +25,10 @@ In this project, we developed a CNN model to classify images of skin lesions int
 
 Here’s a video demonstrating the model in action, showing how it processes input images and provides predictions:
 
-<video width="320" height="240" controls>
+<video width="600" controls>
   <source src="Website_demo" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 
 ## 6. Conclusion
 
